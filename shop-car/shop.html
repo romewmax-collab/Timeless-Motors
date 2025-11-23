@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Shop Grid</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="shop.css" />
+  </head>
+  <body>
+    <header class="header page-header">
+      <div class="header-left">
+        <div>
+          <img id="Upic" alt="logo-of-thewebsite" src="../logo.png" />
+        </div>
+        <div>
+          <span class="brand-title">Timeless Motors</span>
+          <span class="brand-tag">Classic cars • Restoration • Community</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav class="nav">
+          <ul>
+            <a href="../home-page/index.html">Home</a>
+            <a href="../about-page/about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="../contact-page/contact.html">Contact</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main-div">
+      <h1 id="car-h1">Car Shop</h1>
+      <div class="car-grid">
+        <section class="car-card">
+          <img src="images/pic-1.jpg" alt="Car 1" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Cadillac Series 62 Convertible</p>
+            <p><strong>Year:</strong> 1949</p>
+            <p><strong>Description:</strong> Classic American muscle car.</p>
+            <p><strong>Price:</strong> $41,300</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            onclick="showTab('car1')"
+            class="see-more"
+            >See more...</a
+          >
+        </section>
+
+        <section class="car-card">
+          <img src="images/pic-2.jpg" alt="Car 2" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Bentley S1 Continental Fastback</p>
+            <p><strong>Year:</strong> 1955</p>
+            <p>
+              <strong>Description:</strong> Sporty and stylish two-door coupe.
+            </p>
+            <p><strong>Price:</strong> $400,000</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            class="see-more"
+            onclick="showTab('car2')"
+            >See more...</a
+          >
+        </section>
+
+        <section class="car-card">
+          <img src="images/pic-3.jpg" alt="Car 3" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Cadillac Series 62 Convertible</p>
+            <p><strong>Year:</strong> 1960</p>
+            <p>
+              <strong>Description:</strong> A large, flamboyant piece of classic
+              American luxury with the final, softened tailfin design.
+            </p>
+            <p><strong>Price:</strong> $80,000</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            onclick="showTab('car3')"
+            class="see-more"
+            >See more...</a
+          >
+        </section>
+
+        <section class="car-card">
+          <img src="images/pic-4.jpg" alt="Car 4" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Oldsmobile Super 88 Two-Door Sedan</p>
+            <p><strong>Year:</strong> 1953</p>
+            <p>
+              <strong>Description:</strong> A powerful and stylish 'Rocket'
+              V8-equipped American sedan from the early 1950s.
+            </p>
+            <p><strong>Price:</strong> $15,000</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            onclick="showTab('car4')"
+            class="see-more"
+            >See more...</a
+          >
+        </section>
+
+        <section class="car-card">
+          <img src="images/pic-5.jpg" alt="Car 5" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Porsche 911 Carrera 3.2 Targa</p>
+            <p><strong>Year:</strong> 1984</p>
+            <p>
+              <strong>Description:</strong> An iconic, rear-engined German
+              sports car with a removable targa top and powerful air-cooled
+              flat-six.
+            </p>
+            <p><strong>Price:</strong> $75,000</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            onclick="showTab('car5')"
+            class="see-more"
+            >See more...</a
+          >
+        </section>
+
+        <section class="car-card" id="lastcar">
+          <img src="images/pic-6.jpg" alt="Car 6" />
+          <div class="car-info">
+            <p><strong>Model:</strong> Chevrolet Corvette C1 Convertible</p>
+            <p><strong>Year:</strong> 1960</p>
+            <p>
+              <strong>Description:</strong> An iconic, fiberglass-bodied
+              American sports convertible from the early V8 era, famed for its
+              performance and style.
+            </p>
+            <p><strong>Price:</strong> $90,000</p>
+          </div>
+          <a
+            href="../post-pages/simple-car.html"
+            onclick="showTab('car6')"
+            class="see-more"
+            >See more...</a
+          >
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer page-footer">
+      <div class="footer-contant">
+        <div class="footer-column">
+          <h4>About</h4>
+          <p>@ Timeless Motors — preserving classic cars and stories.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <p>
+            <a href="../home-page/index.html">Home</a> ·
+            <a href="shop.html">Shop</a> ·
+            <a href="../about-page/about.html">About</a>
+          </p>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>Email: info@timeless.example</p>
+          <div class="footer-social">
+            Follow: <a href="#">Twitter</a> <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          text-align: center;
+          color: #cfeff0;
+          font-size: 0.9rem;
+          margin-top: 10px;
+        "
+      >
+        &copy; Timeless Motors
+      </div>
+    </footer>
+
+    <script>
+      function showTab(id) {
+        // Store the selected car ID in localStorage to pass to the next page
+        localStorage.setItem("selectedCar", id);
+      }
+    </script>
+  </body>
+</html>
